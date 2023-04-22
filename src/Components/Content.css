@@ -1,0 +1,25 @@
+.cons{
+    justify-content: space-around;
+    border: 1px solid grey;
+    width:80%;
+    margin:auto;
+    box-shadow: 0px 2px 4px -1px grey;
+    margin-bottom: 1em;;
+}
+.tasks{
+    justify-content: space-between;
+    border: 1px solid blue;
+    width:80%;
+    height: 2.5rem;
+    padding: 0.5rem;
+    align-items: center;
+    margin: auto;
+   
+}
+.todo-input{
+    width:75%;
+    padding: 0.5em;
+    border: 1px solid grey;
+    box-shadow: 0px 2px 4px -1px grey;
+    margin-right: 1em;
+}
