@@ -13,10 +13,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 
-##Installations:Run the following commands:
+## Installations:Run the following commands:
 
-###`npm install react-bootstrap bootstrap`
-###`npm install rect-icons`
+### `npm install react-bootstrap bootstrap`
+### `npm install rect-icons`
 
-##Note:
+## Note:
 This app was made edge as default web browser so if in case it doesn't work with chrome try opening it in edge.
