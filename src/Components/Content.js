@@ -32,7 +32,7 @@ function Content() {
       </div>
       <div>
         {tasks.map((task, index) => (
-          <div className='d-flex flex-sm-row flex-column tasks' key={index}>
+          <div className='d-flex flex-sm-row flex-column tasks ' style={{marginBottom:"5px"}} key={index}>
             <div className='task'>{task.task}</div>
             <div className='duration'>
               <StopWatch lastDuration={task.duration} addTask={addTask} />

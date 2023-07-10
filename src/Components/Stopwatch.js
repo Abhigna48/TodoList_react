@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './Stopwatch.css';
 import { BsPlay, BsStop } from 'react-icons/bs';
+import user from '../images/user.png'
 
 function Stopwatch(props) {
   const [seconds, setSeconds] = useState(0);
@@ -59,7 +60,7 @@ function Stopwatch(props) {
       </div>
       <div className='button-container'>
         <button className='ssb' onClick={isRunning ? stopTimer : startTimer}>
-          {isRunning ? <BsStop /> : <BsPlay />}
+          {isRunning ? <img src={user} alt='' width="40px" height="40px" style={{ borderRadius: "70%" }} /> :<img src={user} alt='' width="40px" height="40px" style={{ borderRadius: "70%" }} /> }
         </button>
       </div>
     </div>
